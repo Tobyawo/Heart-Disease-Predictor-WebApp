@@ -25,7 +25,7 @@ This data set dates from 1988 and consists of four databases: Cleveland, Hungary
 * thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
 The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
 
-<h3> PROJECT INTERFACE </h3>
+<h3> APP INTERFACE </h3>
 
 [DEPLOYED ON HEROKU CHECK OUT THE APP HERE](https://heart-disease-ai.herokuapp.com)
 
