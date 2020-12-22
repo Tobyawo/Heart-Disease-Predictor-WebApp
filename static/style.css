@@ -94,8 +94,8 @@ ul, li {
 
 input {
   border-radius: 10px !important;
-  height: 43px !important;
-  #width:230px;
+  height: 53px !important;
+  width:230px;
 
 }
 
@@ -105,7 +105,7 @@ input {
 select{
   border-radius: 10px !important;
   height: 43px !important;
-  width: 20%;
+  width: 50%;
 
 }
 
@@ -114,7 +114,7 @@ button {
   border-radius: 20px !important;
     outline: none !important;
   height: 40px !important;
-  width: 100px;
+  width: 200px;
   color: #000 !important;
   background: #9D50BB !important;
   background: -webkit-linear-gradient(to right, #9D50BB, #9D50BB) !important;  /* Chrome 10-25, Safari 5.1-6 */
