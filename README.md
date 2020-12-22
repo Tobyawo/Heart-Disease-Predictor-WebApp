@@ -32,5 +32,5 @@ The names and social security numbers of the patients were recently removed from
 
 <p align="center">
   <img src="https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_1~2.png" width="350" title="first-screenshot">
-   <img src="https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_1~1.png" width="350" title="second-screenshot">
+   <img src="https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_2~2.png" width="350" title="second-screenshot">
 </p>
