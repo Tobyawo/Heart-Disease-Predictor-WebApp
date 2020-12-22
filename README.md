@@ -29,8 +29,5 @@ The names and social security numbers of the patients were recently removed from
 
 [DEPLOYED ON HEROKU CHECK OUT THE APP HERE](https://heart-disease-ai.herokuapp.com)
 
+![app demo](https://github.com/Tobyawo/Resources/blob/main/output_KwTyXa.gif)
 
-<p align="center">
-  <img src="https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_1~2.png" width="350" title="first-screenshot">
-   <img src="https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_2~2.png" width="350" title="second-screenshot">
-</p>
