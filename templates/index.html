@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Heart Disease Prediction</title>
+    <meta name="author" content="AwoyomiTobi"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+
+
+  </head>
+
+  <body>
+
+<div class="container main">
+  <div id="holder">
+     <br>
+       <center><b><h2 style="color:#FF0000";>{{ prediction_text}}</h2></b></center>
+     <br>
+      <div>
+     <br>
+    <center><h1 class='main_heading'> Heart Disease Prediction Model</h1></center>
+    <center><img src="images/heart.jpeg" alt="heart-image.jpeg" /></center>
+    <p></p>
+    <p> Heart disease is one of the biggest causes of mobidity and mortality among the population of the world. Prediction of cardiovascular disease is regarded as one of the most important subjects in the section of clinical data analysis.</p>
+    <p>This Web Based Application uses Machine Learning Algorithm to predict whether a person is suffering from heart disease or not using one of the most used dataset - Cleveland Heart Disease Dataset from UCI Repository. [Note that this model is 85% accurate]</p>
+    <br>
+    </div>
+    <div class="instructions">
+      <h2>Instructions: </h2>
+      <p> Please Enter the values for all the following fields and click on PREDICT button</p>
+
+    </div>
+
+    <form class="form-horizontal" action="{{ url_for('predict')}}"method="post">
+
+      <div class="form-group">
+          <label for="age">Age</label>
+        <div class="col-sm-10">
+          <input  class="form-control" type= "text" name="age" placeholder="Enter your age.." required="required" />
+        </div>
+      </div>
+          <p></p>
+
+       <div class="form-group">
+           <label for="sex">Sex</label>
+           <div class="col-sm-10">
+  <select id="sex" name="sex">
+      <option value="0">male</option>
+      <option value="1">Female</option>
+     </select>
+  </div>
+        <p></p>
+
+
+      <div class="form-group">
+          <label for="Chest Pain Type">Chest Pain Type</label>
+        <div class="col-sm-10">
+            <select id="cp" name="cp">
+      <option value="1"> typical type 1 </option>
+      <option value="2">typical type agina</option>
+      <option value="3">non-agina pain</option>
+      <option value="4">asymptomatic</option>
+      </select>
+        </div>
+      </div><p></p>
+
+      <div class="form-group">
+          <label for="trestbps">Resting blood pressure</label>
+        <div class="col-sm-10">
+          <input  class="form-control" type="text" name="trestbps" placeholder="trestbps" required="required" />
+        </div>
+      </div>  <p></p>
+
+      <div class="form-group">
+          <label for="chol">Serum cholestrol</label>
+        <div class="col-sm-10">
+          <input  class="form-control" type="text" name="chol" placeholder="chol" required="required" />
+        </div>
+      </div>   <p></p>
+
+      <div class="form-group">
+          <label for="fbs">Fast Blood Sugar Level</label>
+        <div class="col-sm-10">
+            <select id="fbs" name="fbs">
+      <option value="1">  ≥ 120 mg/dl </option>
+      <option value="0">≤ 120 mg/dl</option>
+           </select>
+        </div>
+      </div> <p></p>
+
+      <div class="form-group">
+          <label for="restecg">Resting electrographic results</label>
+        <div class="col-sm-10">
+            <select id="restecg" name="restecg">
+      <option value="0">  Normal </option>
+      <option value="1">  having ST_T wave abnormal </option>
+      <option value="2">left ventricular  hypertrophy </option>
+		   </select>
+        </div>
+      </div> <p></p>
+
+      <div class="form-group">
+          <label for="thalach">Maximum heart rate achieved</label>
+        <div class="col-sm-10">
+          <input  class="form-control" type="text" name="thalach" placeholder="thalach" required="required" />
+        </div>
+      </div> <p></p>
+
+      <div class="form-group">
+          <label for="exang">Exercise induced angina -(Exang)</label>
+        <div class="col-sm-10">
+              <select id="exang" name="exang">
+      <option value="0">no</option>
+      <option value="1">yes</option>
+     </select>
+        </div>
+      </div>  <p></p>
+
+      <div class="form-group">
+          <label for="oldpeak">ST depression induced by exercise </label>
+        <div class="col-sm-10">
+          <input  class="form-control" type="text" name="oldpeak" placeholder="oldpeak" required="required" />
+        </div>
+      </div> <p></p>
+
+      <div class="form-group">
+          <label for="slope">Slope of the ST segment</label></label>
+        <div class="col-sm-10">
+            <select id="slope" name="slope">
+      <option value="1">  up sloping   </option>
+      <option value="2">   flat  </option>
+      <option value="3"> down sloping  </option>
+      <option value="4"> Unknown  </option>
+		   </select>
+        </div>
+      </div>  <p></p>
+
+      <div class="form-group">
+          <label for="ca">Number of major vessels colored by floursopy</label>
+        <div class="col-sm-10">
+            <select id="ca" name="ca">
+      <option value="0">  0   </option>
+      <option value="1">   1  </option>
+      <option value="2"> 2  </option>
+           <option value="3"> 3  </option>
+		   <option value="4"> Unknown  </option>
+		   </select>
+        </div>
+      </div>   <p></p>
+
+      <div class="form-group">
+          <label for="thal">Defect type</label>
+        <div class="col-sm-10">
+            <select id="thal" name="thal">
+      <option value="3">   normal    </option>
+      <option value="6">    fixed </option>
+      <option value="7"> reversible defect  </option>
+           <option value="8"> Unknown  </option>
+		   </select>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+         <center><button type="submit" class="button btn btn-default">PREDICT</button><center/>
+        </div>
+      </div>
+    </form>
+
+
+
+    <h2 class="result"></h2>
+  </div>
+  </div>
+
+  </body>
+</html>
+
