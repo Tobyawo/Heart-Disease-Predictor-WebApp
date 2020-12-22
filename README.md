@@ -1,4 +1,5 @@
-# 
+# <h1> HEART DISEASE PREDICTOR </h1>
+<h3> Introduction </h3>
  The term “heart disease” is often used interchangeably with the term “cardiovascular disease”. Cardiovascular disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain (angina) or stroke. Other heart conditions, such as those that affect your heart’s muscle, valves or rhythm, also are considered forms of heart disease.
 Heart disease is one of the biggest causes of morbidity and mortality among the population of the world. Prediction of cardiovascular disease is regarded as one of the most important subjects in the section of clinical data analysis. The amount of data in the healthcare industry is huge. Data mining turns the large collection of raw healthcare data into information that can help to make informed decisions and predictions.  
 Machine learning (ML) proves to be effective in assisting in making decisions and predictions from the large quantity of data produced by the healthcare industry.
@@ -23,3 +24,4 @@ This data set dates from 1988 and consists of four databases: Cleveland, Hungary
 * number of major vessels (0-3) colored by flourosopy
 * thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
 The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
+
