@@ -26,6 +26,5 @@ This data set dates from 1988 and consists of four databases: Cleveland, Hungary
 The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
 
 <h3> PROJECT INTERFACE </h3>
-[DEPLOYED ON HEROKU CHECK OUT THE APP HERE](https://heart-disease-ai.herokuapp.com)
-![Alt text](https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_1~2.png?raw=true "Title")
-![Alt text](https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_1~1.png?raw=true "Title")
+
+DEPLOYED ON HEROKU [CHECK OUT THE APP HERE](https://heart-disease-ai.herokuapp.com)
