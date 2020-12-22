@@ -32,5 +32,5 @@ The names and social security numbers of the patients were recently removed from
 [Alt text](https://github.com/Tobyawo/Heart-Disease-Predictor-WebApp/blob/master/Screenshot_1~2.png?raw=true)
 
 <p align="center">
-  <img src="./screenshot_1~1" width="350" title="hover text">
+  <img src="./screenshot_1~1.png" width="350" title="hover text">
 </p>
