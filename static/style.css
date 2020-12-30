@@ -68,9 +68,9 @@ h1,h2,h3,h4,h5,h6 {
 
 p,.control-label {
     font-family: Raleway-SemiBold;
-    font-size: 18px !important;
+    font-size: 20px !important;
     color: #666666;
-    margin: 0px;
+    margin: 20px;
 }
 
 ul, li {
@@ -105,7 +105,7 @@ input {
 select{
   border-radius: 10px !important;
   height: 70px !important;
-  width: 50%;
+  width: 60%;
 
 }
 
@@ -113,7 +113,7 @@ select{
 button {
   border-radius: 20px !important;
     outline: none !important;
-  height: 60px !important;
+  height: 70px !important;
   width: 250px;
   color: #000 !important;
   background: #9D50BB !important;
@@ -131,7 +131,7 @@ button:hover {
   background: #F8F8FF;
   width: 1145px;
   margin: auto;
-  size: 10px;
+  size: 50px;
 
 }
 
